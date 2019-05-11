@@ -1,6 +1,6 @@
 #Center
 
-Heroku Deployment : [TEXT TO SHOW](https://centering.herokuapp.com/)
+Heroku Deployment : [Center](https://centering.herokuapp.com/)
 
 Member: Sunny Liao
 
