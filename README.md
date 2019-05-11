@@ -10,9 +10,9 @@ Purpose: We are facing different challenges daily, a kind message you find helpf
 
 Pages Layout: 
 
-Main - An animation of a single tree growth, with an enter button redirects user to Login or Register page.
-Login/Register
-User Page - Background dynamically changes as 21 days of tree growth as user log to send a message to other user daily.
+Main - An animation of a single tree growth, with an enter button redirects user to Login or Register page. <br/>
+Login/Register <br/>
+User Page - Background dynamically changes as 21 days of tree growth as user log to send a message to other user daily. <br/>
                           
 ** Bottom Right Button redirects to a Pop-up page with 21 buttons. <br/>
 ** User click on Day 1 button to be redirected to random messages for user to select that fits the best for their day/or mood, once submitted, user will be redirected to All Registered User Page, user can select which other user they would like to send the positive message to.  <br/>                       
