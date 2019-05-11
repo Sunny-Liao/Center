@@ -24,8 +24,8 @@ User Page - Background dynamically changes as 21 days of tree growth as user log
    
 Schedule of Completion:
 
-** Home Page Animation - 04/23/19 - completed
-** Routes - 05/01/19 - completed
+** Home Page Animation - 04/23/19 - completed <br/>
+** Routes - 05/01/19 - completed <br/>
 ** Test Deployment to Heroku - 05/09/19 - completed
 ** User Authentication Set Up - 05/10/19 - completed
 
