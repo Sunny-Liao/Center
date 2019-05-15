@@ -26,9 +26,12 @@ Schedule of Completion:
 ** Routes - 05/01/19 - completed <br/>
 ** Test Deployment to Heroku - 05/09/19 - completed <br/>
 ** User Authentication Set Up - 05/10/19 - completed <br/>
+** DataBase Setup & Connection - 05/13/19 - completed <br/>
 <br/>
 
-** DataBase Setup - 05/13/19 - under processing <br/>
+***** Problem : Not able to store user input to database *****
+
+
 ** Instagram API - 05/16/19 <br/>
 ** Set 24 Hour Time Interval - 05/19/19 <br/>
 
