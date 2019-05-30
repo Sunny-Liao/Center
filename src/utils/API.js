@@ -4,30 +4,23 @@ import axios from "axios";
 
 export default {
 
-  getBooks: function() {
-    return axios.get("/api/books");
-  },
-  // Gets the book with the given id
-  getBook: function(id) {
-    return axios.get("/api/books/" + id);
-  },
-  // Deletes the book with the given id
-  deleteBook: function(id) {
-    return axios.delete("/api/books/" + id);
-  },
-  // Saves a book to the database
-  saveBook: function(bookData) {
-    return axios.post("/api/books", bookData);
-  },
+  
 
 
   getRandomDog: function() {
     return axios.get("https://dog.ceo/api/breeds/image/random");
   },
-  getDogsOfBreed: function(breed) {
-    return axios.get("https://dog.ceo/api/breed/" + breed + "/images");
-  },
-  getBaseBreedsList: function() {
-    return axios.get("https://dog.ceo/api/breeds/list");
+
+  getQuote: function() {
+    var randomId = Math.floor(Math.random() * 1000) + 300;
+    return axios.get(`https://healthruwords.p.rapidapi.com/v1/quotes/?id=${randomId}&t=Wisdom&maxR=1&size=medium`, {
+      headers: {
+         "X-RapidAPI-Host": "healthruwords.p.rapidapi.com",
+           "X-RapidAPI-Key": "Ba5XmdEu9NmshpHQJ8ehPUHPYPWQp11kJ61jsnoifyLs71Yhzq"
+       }
+    })
   }
-};
+}
+
+  
+

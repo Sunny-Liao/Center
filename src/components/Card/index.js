@@ -18,7 +18,7 @@ function Card(props) {
       />
       <CardBtn
         style={{ opacity: props.image ? 1 : 0 }}
-        onClick={props.handleBtnClick}
+        onClick={props.handleGenerateNewImage}
         data-value="pick"
       />
     </div>

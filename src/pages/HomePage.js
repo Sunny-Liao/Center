@@ -9,7 +9,7 @@ function HomePage(props) {
       <video autoPlay muted id="myVideo">
         <source src={require('./tree.mp4')} type="video/mp4" />
       </video>
-      <Link to="/about">
+      <Link to="/register">
         <EnterBtn className="enterButton">Enter</EnterBtn>
       </Link>
     </Wrapper>
