@@ -1,6 +1,6 @@
 #Center
 
-Heroku Deployment : [Center](https://centering.herokuapp.com/)
+Project Demo : [Center](https://drive.google.com/file/d/1gEyuS6nqVMi1BsSh9zpgQQaw6M2l-O-e/view)
 
 Member: Sunny Liao
 
@@ -27,12 +27,15 @@ Schedule of Completion:
 ** Test Deployment to Heroku - 05/09/19 - completed <br/>
 ** User Authentication Set Up - 05/10/19 - completed <br/>
 ** DataBase Setup & Connection - 05/13/19 - completed <br/>
+** User Input Store to Database - 05/20/19 - completed <br/>
+** Button Click Event Dynamically Updates Background - 05/28/19 - completed <br/>
+** API Generating Positive Message Implemented - 05/30/19 - completed <br/>
 <br/>
 
-***** Problem : Not able to store user input to database *****
 
 
-** Instagram API - 05/16/19 <br/>
+
+
 ** Set 24 Hour Time Interval - 05/19/19 <br/>
 
 
