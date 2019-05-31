@@ -1,23 +1,29 @@
 {
   "name": "center",
   "version": "0.1.0",
+  "license": "ISC",
+  "main": "server.js",
   "private": true,
   "dependencies": {
     "axios": "^0.18.0",
-    "babel-preset-react-app": "^7.0.0",
-    "raf": "^3.4.1",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.3.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.0",
+    "http-server": "^0.11.1",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^2.2.0",
+    "mysql": "^2.17.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-facebook-login": "^4.1.1",
-    "react-google-login": "^5.0.4",
-    "react-router-dom": "4.3.1",
+    "react-router-dom": "^5.0.0",
     "react-scripts": "3.0.0",
-    "yarn": "^1.15.2"
+    "reactstrap": "^8.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -34,5 +40,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "proxy": "http://localhost:3000"
 }
