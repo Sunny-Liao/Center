@@ -161,7 +161,7 @@ class Profile extends Component {
                         <Discover currentImage={this.handleCurrentImage} />
                     </ModalBody>
                     <ModalFooter>
-                        <Button color="primary" onClick={this.sendUserClick}>Send</Button>{' '}
+                        <Button color="primary" onClick={this.sendUserClick}>Select</Button>{' '}
                         <Button color="secondary" onClick={this.togglePhoto}>Cancel</Button>
                     </ModalFooter>
                 </Modal>
@@ -171,7 +171,7 @@ class Profile extends Component {
                         <Row>
                             {this.state.users.map((user, index) => {
                                 return <Col xs="1" className="mr-3 mb-3"><Button onClick={(e) => {
-                                    this.handleUserClick(e, user.email)
+                                    this.handleUserClick(e, user.firstname + ' ' + user.lastname)
                                 }}>{index + 1}</Button></Col>
                             })}
                         </Row>
